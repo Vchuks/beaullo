@@ -1,0 +1,1036 @@
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+   
+}
+.container{
+    margin: 0 30px;
+}
+.containerfilter{
+    width: 100%;
+    background-color:#fafafa ;
+    clear:both;
+}
+.Navigation-container{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    background-color: #FFFFFF;
+    z-index: 20;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.Nav-Bar{
+    margin: auto;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Logo-container {
+    display: flex;
+}
+
+.Logo{
+    width: 100px;
+    height: 95.45px;
+}
+.Sign-in-and-sell{
+    margin: 20px 0px 0px 30px;
+}
+.Sign-in-and-sell a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.Mobile-menu-container{
+    display: none;
+}
+
+.Logo-container i{
+    display: none;
+}
+
+
+
+
+
+.my-Beaullo-container{
+    margin-top: 15px;
+    display: flex;
+}
+
+
+
+
+.my-Beaullo-container a{
+    text-decoration: none;
+    margin: 5px 0px 0px 15px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+.cart{
+    font-size: 30px;
+    margin: 5px 0px 0px 50px;
+}
+
+
+
+
+
+
+
+.tag{
+    background-color: #fafafa;
+    height: 164px;
+    width: 100%; 
+    padding: 5px 0 10px 0;
+    margin: 50px 0 5px 0;
+}
+.tag i{
+    color: gold;
+    font-size: 20px;
+}
+.tag h4{
+    margin:35px 0 0 150px;
+    font-size: 34px;
+}
+.tag h4 img{
+    width: 40px;
+    height: 40px;
+    margin:0;
+}
+.tag p{
+    margin:10px 0 0 150px;
+    font-size: 16px;
+}
+.tag img{
+    width: 77px;
+    height: 70px;
+    position: absolute;
+    margin: 40px 30px;
+}
+
+.filter input[type=text]{
+    width: 95%;
+    height: 60px;
+    background-color: #fafafa;
+    border: 1px solid rgb(117, 114, 114);
+    border-radius: 15px;
+    margin: 10px 0 10px 30px;
+    outline: none;
+}
+.filter i{
+    line-height: 70px; 
+    margin: 0; 
+    color: #000;
+    
+}
+.buy{
+    height: 28px;
+    width: 77px;
+    background-color: #002447;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 30px 20px 0 0;
+    
+}
+.buy a{
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.latest{
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+.latest a{
+    float: right;
+    text-decoration: none;
+    color: #5f5b5b;
+    font-size: 24px;
+}
+.latest a:hover{
+    text-decoration: underline;
+}
+.brand{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.brand img{
+    height: 262px;
+    width: 362px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.pic i{
+    color: #000;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+.pic{
+    height: 370px;
+    width: 362px;
+    margin: 0 auto;
+    box-shadow:0 8px 8px 0 rgba(31, 1, 1, 0.17) ; 
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #fafafa;
+    text-transform: capitalize;
+}
+.pic h5{
+    padding-left: 10px;
+    margin: 0;
+    padding-top: 10px;
+}
+.pic p{
+    background-color: #b2d4f0;
+    color:#42A5F5;
+    height: 20px;
+    width: 40px;
+    padding: 3px 0 1px 0;
+    margin: 0 0 0 70px;
+}
+.pic h6{
+    color: #5f5b5b;
+    padding-left: 10px;
+    margin: 0;
+}
+.client{
+    height: 700px;
+    background-color: #fafafa;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.client h3{
+    font-size: 40px;
+    padding: 40px 0; 
+    margin: 0 30px;
+}
+.client-pic, .client-pic img{
+    height: 500px;
+    margin: 0 0 0 30px;
+    width: 65%;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  margin: 40px 10px 0 0;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+    height: 450px;
+    width: 400px;
+    margin: 5px 30px 0 0;
+}
+.mySlides p{
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.icon{
+    height: 40px;
+    width: 120px;
+    margin: 37px 0 0 0;
+    
+}
+.icon i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.icon2{
+    height: 40px;
+    width: 120px;
+    margin: 37px 0 0 0;
+    
+}
+.icon2 i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #000;
+}
+footer{
+    background: #002447;
+    
+}
+.footer-text-container{
+    width: 85%;
+    padding-top: 30px;
+    padding-bottom: 227px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+}
+
+.Footer-Header{
+    width: 284px;
+    margin-right: 200px;
+}
+.Footer-Header h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.Footer-Header p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #E0E0E0;
+}
+
+
+
+
+.about-section{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text-container h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px
+}
+
+.footer-text-container a{
+    display: block;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E0E0E0;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+
+.social-media-icons{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.social-media-icons a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.mapp{
+    margin: 30px;
+    overflow: hidden;
+    top: 0; width: 50%;
+    left: 0;height: 450px;
+}
+.mapp iframe{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.container2{
+    height: 500px;
+    width: 40%;
+     margin-top: 50px;
+}
+.container2 h4{
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #5f5b5b;
+}
+.container2 h5{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    color: #5f5b5b;
+}
+.container2 p{
+    font-size: 24px;
+    padding-right: 10px;
+    color: #181616;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.container2 i{
+    margin-right: 20px;
+
+}
+.container3{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media (max-width:1023px){
+    
+    .Navigation-container{
+        position: relative;
+        width: 100%;
+        padding: 15px 0px;
+        background-color: #FFFFFF;
+        z-index: 200;
+        margin: 0 0 10px 0;
+    }
+    
+    .Nav-Bar{
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    
+    #Sub-Navigaiton-container{
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        
+    }
+
+    .hide-NavBar{
+        transform: translate(-1023px);
+        transition: all 0.2s ease-in;
+    }
+
+    .show-NavBar{
+        transform: translate(0px);
+        transition: all 0.3s ease-out;
+    }
+
+
+    
+    
+    .Logo-or-Title{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .Mobile-menu-container{
+        position: fixed;
+        display: block;
+        bottom: 0px;
+        top: 0px;
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        padding-top: 10px;
+    }
+    .Mobile-Menu-Logo-or-Title{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .mobile-Logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    .Mobile-Menu-Open-Btn{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .Logo-container i{
+        display:block;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+
+    .Logo-container {
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    
+    .Logo{
+        width: 80px;
+        height: 80px;
+    }
+    .Sign-in-and-sell{
+        margin: 20px 0px 0px 0px;
+    }
+    .Sign-in-and-sell a{
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 50px;
+        color: black;
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .my-Beaullo-container{
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+    
+
+    .my-Beaullo-container a{
+        text-decoration: none;
+        margin: 0px 0px 0px 15px;
+        color: black;
+        font-size: 25px;
+        
+    }
+    
+    .cart{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .containerfilter{
+        width: 100%;
+        background-color:#fafafa ;
+        clear:both;
+        margin-top: 45px;
+    }
+
+
+
+
+    footer{
+        background: #002447;
+    }
+    .footer-text-container{
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Footer-Header{
+        width: 20%;
+        margin-right: 200px;
+    }
+    .Footer-Header h2{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+    .Footer-Header p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        color: #E0E0E0;
+    }
+    
+    
+    
+    
+    .about-section{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-text-container h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 20px
+    }
+    
+    .footer-text-container a{
+        display: block;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #E0E0E0;
+        margin-bottom: 10px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    
+    
+    .social-media-icons{
+        width: 85%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .social-media-icons a{
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    
+
+    
+}
+
+
+@media (max-width:767px){
+    
+    
+    
+    .Nav-Bar{
+        width: 90%;
+        margin: auto;
+        margin-top: 0px;
+        display: block;
+
+    }
+    
+    #Sub-Navigaiton-container{
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        
+    }
+
+    .hide-NavBar{
+        transform: translate(-900px);
+        transition: all 0.2s ease-in;
+    }
+
+    .show-NavBar{
+        transform: translate(0px);
+        transition: all 0.3s ease-out;
+    }
+
+    
+    
+    .mobile-Logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Mobile-menu-container{
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 70px;
+    }
+    .Mobile-Menu-Logo-or-Title{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .Mobile-Menu-Open-Btn{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .Logo-container i{
+        display:block;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+
+    
+    
+    
+    
+    
+    .Logo-container {
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    
+    .Logo{
+        width: 60px;
+        height: 60px;
+    }
+    .Sign-in-and-sell{
+        margin: 20px 0px 0px 0px;
+        position: absolute;
+        top: 70px;
+    }
+    .Sign-in-and-sell a{
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 50px;
+        color: black;
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    .my-Beaullo-container{
+        display: flex;
+        margin: auto;
+        margin-top: 80px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+
+    .my-Beaullo-container a{
+        text-decoration: none;
+        margin: 0px 0px 0px 15px;
+        color: black;
+        font-size: 15px;
+        
+    }
+    
+
+    
+    .cart{
+        font-size: 20px;
+    }
+
+footer{
+    margin-top: 30px;
+}
+footer{
+    background: #002447;
+
+}
+.footer-text-container{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin: auto;
+    display: block;
+}
+
+.Footer-Header{
+    width: 100%;
+    margin-right: 200px;
+}
+.Footer-Header h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.Footer-Header p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #E0E0E0;
+}
+
+
+
+
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-text-container h3{
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+}
+
+
+@media(max-width:800px){
+        
+    .tag i{
+        color: gold;
+        font-size: 10px;
+    }
+
+    .tag h4{
+        margin:20px 0 0 110px;
+        font-size: 20px;
+    }
+    .tag h4 img{
+        width: 15px;
+        height: 15px;
+    }
+    .tag img{
+        width: 60px;
+        height: 60px;
+    }
+    .tag p{
+        margin:10px 0 0 110px;
+        font-size: 16px;
+    }
+    .tag{
+        height: 124px;
+        margin-top: 20px; 
+    }
+    .filter input[type=text]{
+        width: 90%;
+        height: 40px;
+        margin: 10px 20px;
+    }
+    
+    .latest h3{
+        font-size: 25px;
+    }
+    .latest a{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .brand{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .brand img{
+        height: 200px;
+        width: 200px;
+    }
+    .pic{
+        height: 300px;
+        width: 200px;
+    }
+    .pic h5, p, h6{
+        font-size: 12px;
+    }
+    
+    .client{
+        height: 440px;
+        width: 100%;
+    }
+    
+    .client h3{
+        font-size: 25px;
+        padding: 30px 0; 
+        margin: 0 30px;
+    }
+    
+    .client-pic{
+        width: 50%;
+        height: 270px;
+        margin: 0 10px;
+    }
+    .client-pic img{
+        height: 270px;
+        width: 90%;
+    }
+    
+    .slideshow-container {
+        width: 50%;
+        height: 270px;
+        margin: 5px 0 10px 20px;
+        
+      }
+      .mySlides img{
+        height: 270px;
+        width: 100%;
+        margin: 5px 0 10px 0;
+    }
+    .mySlides p{
+        line-height: 20px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .prev, .next {
+        top: 100%;
+    }
+    .mapp{
+        margin: 20px;
+        overflow: hidden;
+        top: 0; width: 50%;
+        left: 0;height: 300px;
+    }
+    
+    .container2{
+        height:300px;
+        width: 50%;
+        margin:20px 0 0 0;
+    }
+    .container2 h4{
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+        font-size: 16px;
+        
+    }
+    .container2 h5{
+        font-size: 16px;
+    }
+    .container2 p{
+        font-size: 16px;
+        padding-right: 10px;
+        color: #181616;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container2 i{
+        margin-right: 15px;
+    
+}
+
+.buy{
+    height: 20px;
+    width: 40px;
+    background-color: #002447;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 30px 10px 0 0;
+    clear: both;
+    
+}
+.buy a{
+    font-size: 8px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.pic i{
+    color: #000;
+    float: right;
+    margin: 5px 10px 0 0;
+}
+.pic p{
+    background-color: #b2d4f0;
+    color:#42A5F5;
+    height: 20px;
+    width: 30px;
+    padding: 3px 0 1px 0;
+    margin: 0 0 0 70px;
+}
+
+
+}
